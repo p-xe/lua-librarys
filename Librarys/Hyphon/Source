@@ -504,7 +504,7 @@ do
         end)
 
         table_insert(library.notifs, notification)
-        notification.objects.container.Position = udim2_new(0,5,0,300 + (table_find(library.notifs, notification) * 25))
+        notification.objects.container.Position = udim2_new(0,5,0,700 + (table_find(library.notifs, notification) * 25))
         notification:set_message(message)
         library:update_notifications()
         return notification
