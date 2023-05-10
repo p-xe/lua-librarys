@@ -9,7 +9,7 @@
 
     // -- Documentation -- \\
 
-    option:set_enabled(enabled <boolean>)
+    option:set_disabled(disabled <boolean>)
     option:set_text(text <string>)
 
     -- menu
