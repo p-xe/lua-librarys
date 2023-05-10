@@ -8,8 +8,6 @@
 
 
     // -- Documentation -- \\
-
-    option:set_disabled(disabled <boolean>)
     option:set_text(text <string>)
 
     -- menu
