@@ -8,8 +8,7 @@
 
 
     // -- Documentation -- \\
-    option:set_text(text <string>)
-
+   
     -- menu
     local menu = library:create('menu', properties <table>)
     library.menu = menu
